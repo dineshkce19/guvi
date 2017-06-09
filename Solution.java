@@ -4,7 +4,7 @@ public class Solution{
     Scanner sc = new Scanner(System.in);
     long num=sc.nextLong();
     String res="";
-    if(num<0)
+    if(num < 0)
       res="negative";
     else if(num==0)
       res="zero";
